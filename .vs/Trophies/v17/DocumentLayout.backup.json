@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18FAF040-22D7-4FE5-A9BE-8C95E0729E65}|TrophiesRepository\\TrophiesRepository.csproj|c:\\users\\mus\\programmering\\obligatoriskopgave3\\trophiesrepository\\trophiesrepository\\trophiesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FAF040-22D7-4FE5-A9BE-8C95E0729E65}|TrophiesRepository\\TrophiesRepository.csproj|solutionrelative:trophiesrepository\\trophiesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED13586-0518-4024-A9DB-E42734E9F0A0}|TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj|c:\\users\\mus\\programmering\\obligatoriskopgave3\\trophiesrepository\\trophiesrepositorytests\\trophiesrepositorytest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BED13586-0518-4024-A9DB-E42734E9F0A0}|TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj|solutionrelative:trophiesrepositorytests\\trophiesrepositorytest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrophiesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\TrophiesRepository.cs",
+              "RelativeDocumentMoniker": "TrophiesRepository\\TrophiesRepository.cs",
+              "ToolTip": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\TrophiesRepository.cs",
+              "RelativeToolTip": "TrophiesRepository\\TrophiesRepository.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:38:40.805Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -18,6 +40,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrophiesRepositoryTest",
+              "DocumentMoniker": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj",
+              "RelativeDocumentMoniker": "TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj",
+              "ToolTip": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj",
+              "RelativeToolTip": "TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T17:37:38.566Z",
+              "EditorCaption": ""
             }
           ]
         }

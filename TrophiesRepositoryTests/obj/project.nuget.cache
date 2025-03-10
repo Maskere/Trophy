@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "PwB2BpduMbM=",
-  "success": false,
+  "dgSpecHash": "CKkEbWH49w4=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepositoryTests\\TrophiesRepositoryTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mus\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
@@ -22,15 +22,5 @@
     "C:\\Users\\Mus\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Mus\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\ClassLibraryTrophy\\TrophiesRepository.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\ClassLibraryTrophy\\TrophiesRepository.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

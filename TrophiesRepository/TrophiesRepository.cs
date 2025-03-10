@@ -25,7 +25,7 @@ namespace ClassLibraryTrophy{
                     throw new ArgumentException("Year cannot be higher than 2025");
                 }
 
-                return result?.FindAll(t => t.Year == year);
+                return result.FindAll(t => t.Year == year);
             }
 
             if(sortByAscending != null){
@@ -63,7 +63,7 @@ namespace ClassLibraryTrophy{
         }
 
         public Trophy? GetById(int id){
-            Trophy? getById = trophies?.Find(t => t.Id == id);
+            Trophy? getById = trophies.Find(t => t.Id == id);
             if(getById == null){
                 throw new ArgumentNullException("Trophy not found");
             }
@@ -73,7 +73,7 @@ namespace ClassLibraryTrophy{
 
         public Trophy? Add(Trophy? trophy){
             if(trophy == null){
-                throw new ArgumentNullException("Cannot add " +trophy+" to the repository");
+                throw new ArgumentNullException("Invalid input");
             }
             trophy.Id = nextId++;
             trophies.Add(trophy);
@@ -81,8 +81,8 @@ namespace ClassLibraryTrophy{
         }
 
         public Trophy? Remove(int id){
-            Trophy? toRemove = GetById(id);
-            if(toRemove == null){
+            Trophy? toRemove = trophies.Find(t => t.Id == id);
+            if (toRemove == null){
                 throw new ArgumentNullException("Trophy not found");
             }
             trophies.Remove(toRemove);
@@ -91,20 +91,20 @@ namespace ClassLibraryTrophy{
         }
 
         public Trophy? Update(int id, Trophy? values){
-            Trophy? toUpdate = GetById(id);
-            if(toUpdate == null){
-                throw new ArgumentNullException("Trophy not found");
-            }
+            Trophy? toUpdate = trophies.Find(t => t.Id == id);
 
-            if(values != null){
-                toUpdate.Competition = values?.Competition;
-                if(values?.Year != null){
-                    toUpdate.Year = values.Year;
-                }
+            if (toUpdate == null){
+                throw new ArgumentNullException($"Could not find trophy with id {id}");
+            }
+            if (values != null)
+            {
+                toUpdate.Competition = values.Competition;
+                toUpdate.Year = values.Year;
                 return toUpdate;
             }
-            else{
-                return null;
+            else
+            {
+                throw new ArgumentNullException("Update values are null");
             }
         }
     }

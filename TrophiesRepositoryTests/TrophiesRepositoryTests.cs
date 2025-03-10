@@ -6,13 +6,6 @@
         [TestInitialize]
         public void Initializer(){
             repo = new();
-
-            //Added in the trophiesrepository contructor
-            /*trophies.Add(new Trophy("Marathon", 2021));*/
-            /*trophies.Add(new Trophy("Ironman", 2022));*/
-            /*trophies.Add(new Trophy("FastCoding", 2022));*/
-            /*trophies.Add(new Trophy("FastCoding", 2023));*/
-            /*trophies.Add(new Trophy("FastCoding", 2024));*/
         }
 
         [TestMethod()]
@@ -49,7 +42,7 @@
         }
 
         [TestMethod()]
-        public void ManipulateRepo(){
+        public void TestAddToRepo(){
             Assert.ThrowsException<ArgumentNullException>(() => repo?.Add(null));
 
             repo?.Add(new Trophy("Football",2025));
@@ -57,21 +50,25 @@
             Assert.AreNotEqual(5, repo?.Get()?.Count());
             Assert.AreEqual(6, repo?.Get()?.Count());
             Assert.AreNotEqual(7, repo?.Get()?.Count());
+        }
 
-            Assert.ThrowsException<ArgumentNullException>(() => repo?.Remove(10));
+        [TestMethod()]
+        public void TestRemoveFromRepo(){
+            Assert.IsNotNull(repo);
+            Assert.ThrowsException<ArgumentNullException>(() => repo.Remove(100));
+            Assert.AreEqual("FastCoding", repo.Remove(4)?.Competition);
 
-            Assert.AreEqual("FastCoding", repo?.Remove(5)?.Competition);
-
-            Assert.AreNotEqual(4, repo?.Get()?.Count());
-            Assert.AreEqual(5, repo?.Get()?.Count());
-            Assert.AreNotEqual(6, repo?.Get()?.Count());
+            Assert.AreNotEqual(3, repo?.Get()?.Count());
+            Assert.AreEqual(4, repo?.Get()?.Count());
+            Assert.AreNotEqual(5, repo?.Get()?.Count());
         }
 
         [TestMethod()]
         public void TestUpdate(){
             Assert.AreEqual(5,repo?.Get()?.Count());
 
-            Assert.ThrowsException<ArgumentNullException>(() => repo?.Update(6, null));
+            Assert.ThrowsException<ArgumentNullException>(() => repo?.Update(4, null));
+            Assert.ThrowsException<ArgumentNullException>(() => repo?.Update(100, new Trophy("Fastest coder", 2024)));
 
             Trophy? updateValues = new("SlowCoding",2024);
             Assert.AreNotEqual(repo?.GetById(5)?.Competition,updateValues.Competition);
