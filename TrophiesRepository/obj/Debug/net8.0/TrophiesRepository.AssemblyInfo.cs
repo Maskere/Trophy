@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrophiesRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d4c1f5eefdf3d2e9546cc0fcba9bd4fbc72a9a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dbc0da48c8cb4339d7768c559a62125f29fb07a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrophiesRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrophiesRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

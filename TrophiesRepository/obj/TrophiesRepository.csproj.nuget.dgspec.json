@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\ClassLibraryTrophy\\ClassLibraryTrophy\\TrophiesRepository.csproj": {}
+    "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\TrophiesRepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\ClassLibraryTrophy\\ClassLibraryTrophy\\TrophiesRepository.csproj": {
+    "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\TrophiesRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\ClassLibraryTrophy\\ClassLibraryTrophy\\TrophiesRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\TrophiesRepository.csproj",
         "projectName": "TrophiesRepository",
-        "projectPath": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\ClassLibraryTrophy\\ClassLibraryTrophy\\TrophiesRepository.csproj",
+        "projectPath": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\TrophiesRepository.csproj",
         "packagesPath": "C:\\Users\\Mus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\ClassLibraryTrophy\\ClassLibraryTrophy\\obj\\",
+        "outputPath": "C:\\Users\\Mus\\Programmering\\ObligatoriskOpgave3\\TrophiesRepository\\TrophiesRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
